@@ -19,6 +19,7 @@ int main() {
         scanf("%d", &band);
 
         if (band == 4 || band == 5) {
+            printf("\n\t\t\t\t\t|values  Colours|    Multiplier           |Tolerance\n\t\t\t\t\t|0      BLACK|       10^0 |1 \n\t\t\t\t\t|1      BROWN|       10^1 |10             |1.0\n\t\t\t\t\t|2      RED|         10^2 |100            |2.0 \n\t\t\t\t\t|3      ORANGE|      10^3 |1000\n\t\t\t\t\t|4      YELLOW|      10^4 |10000 \n\t\t\t\t\t|5      GREEN|       10^5 |100000         |0.5\n\t\t\t\t\t|6      BLUE|        10^6 |1000000        |0.25\n\t\t\t\t\t|7      VIOLET|      10^7 |10000000       |0.10\n\t\t\t\t\t|8      GRAY|        10^8 |100000000      |0.05\n\t\t\t\t\t|9      WHITE|       10^9 |1000000000\n\t\t\t\t\t");
             if (band == 4) {
                 printf("\nEnter four colors of your resistor:\n");
                 scanf("%s %s %s %s", color1, color2, color3, color4);
